@@ -11,7 +11,8 @@
     "test:node": "mocha $NODE_DEBUG_OPTION --no-timeouts --recursive",
     "test:browser": "karma start ./karma.conf.js --single-run",
     "coverage": "nyc mocha --recursive",
-    "build": "webpack --display-error-details"
+    "build": "webpack --display-error-details",
+    "browser": { "fs": false, "path": false, "os": false}
   },
   "contributors": [
     {
@@ -103,6 +104,7 @@
   "homepage": "https://github.com/MichaelHDesigns/dashcore-lib",
   "browser": {
     "request": "browser-request"
+  "browser": { "fs": false, "path": false, "os": false}  
   },
   "dependencies": {
     "node-x25x": "git://github.com/HTHcoin/node-x25x.git#master",
