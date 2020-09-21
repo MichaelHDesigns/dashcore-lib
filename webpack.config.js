@@ -34,3 +34,4 @@ const uglifiedConfig = Object.assign({}, commonJSConfig, {
 })
 
 module.exports = [rawConfig, uglifiedConfig];
+{node:'empty'};
