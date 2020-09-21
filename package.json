@@ -105,7 +105,7 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "https://github.com/HTHcoin/helpthehomeless",
+    "node-x25x": "git:https://github.com/HTHcoin/helpthehomeless",
     "@types/node": "^12.12.47",
     "bitset": "^5.1.1",
     "bloom-filter": "^0.2.0",
