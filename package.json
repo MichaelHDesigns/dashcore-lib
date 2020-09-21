@@ -102,8 +102,7 @@
   },
   "homepage": "https://github.com/MichaelHDesigns/dashcore-lib",
   "browser": {
-    "request": "browser-request"
-  "browser": { "fs": false, "path": false, "os": false}  
+    "request": "browser-request"  
   },
   "dependencies": {
     "node-x25x": "git://github.com/HTHcoin/node-x25x.git#master",
