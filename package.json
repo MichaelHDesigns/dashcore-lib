@@ -11,8 +11,7 @@
     "test:node": "mocha $NODE_DEBUG_OPTION --no-timeouts --recursive",
     "test:browser": "karma start ./karma.conf.js --single-run",
     "coverage": "nyc mocha --recursive",
-    "build": "webpack --display-error-details",
-    "browser": { "fs": false, "path": false, "os": false}
+    "build": "webpack --display-error-details"
   },
   "contributors": [
     {
