@@ -33,4 +33,7 @@ const uglifiedConfig = Object.assign({}, commonJSConfig, {
   },
 })
 
+var config = Encore.getWebpackConfig();
+config.node = { fs: 'empty' };
+module.exports = config;
 module.exports = [rawConfig, uglifiedConfig];
